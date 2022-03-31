@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run propertylisting.py
+web: sh setup.sh && streamlit run sklearn-vizz.py
