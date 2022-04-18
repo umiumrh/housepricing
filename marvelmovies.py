@@ -62,14 +62,12 @@ def choice(page):
         if feature == 'Box Office ($ Million)':
             #st.bar_chart(marvel['Box Office ($ Million)'])
             fig = px.bar(marvel, x="Title", y="Box Office ($ Million)")
-            fig.update_layout(height=600, width=1450)
             st.write(fig)
             
         elif feature == 'IMDB Rating':
         
             #st.bar_chart(marvel['IMDB Rating'])
             fig = px.bar(marvel, x="Title", y="IMDB Rating")
-            fig.update_layout(height=600, width=1450)
             st.write(fig)
             
         else:
