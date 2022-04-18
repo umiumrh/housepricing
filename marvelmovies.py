@@ -6,8 +6,7 @@ import webbrowser
 
 
 st.set_page_config(page_title="MCU project",
-                   page_icon=":sparkles:",
-                   layout="wide")
+                   page_icon=":sparkles:")
 
 st.title('Welcome to my awesome data science project!')
 
